@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_yuga.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_yuga-user \
+    lineage_yuga-userdebug \
+    lineage_yuga-eng
