@@ -29,6 +29,9 @@ $(call inherit-product, device/sony/fusion3-common/common.mk)
 # Product common configurations
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Radio
+BOARD_HAVE_RADIO := true
+
 # Device product elements
 include $(LOCAL_PATH)/product/*.mk
 
